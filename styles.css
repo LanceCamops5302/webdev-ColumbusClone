@@ -28,7 +28,21 @@ ul :nth-child(7) {
 #hero {
     height: 100vh;
     width: 100vw;
-    background-image: url(images/graduation.jpg);
+    background-image: url(images/fans.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#herotextdiv {
+    color: white;
+    margin: 0px;
+    padding-left: 50px;
+    display: flex;
+    padding-top: 100px;
+    text-shadow: 0px 2px 3px #333333;
+    position: relative;
+    overflow: hidden;
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    line-height: 1;
 }
