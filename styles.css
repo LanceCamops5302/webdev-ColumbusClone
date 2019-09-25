@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+}
+
+
 nav {
     background-color: #10243B;
     color: white;
@@ -8,6 +13,7 @@ nav {
 ul {
     list-style-type: none;
     padding: 20px;
+    margin: 0;
 }
 
 ul li {
@@ -31,18 +37,27 @@ ul :nth-child(7) {
     background-image: url(images/fans.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 50px 50px #333333;
 }
 
 #herotextdiv {
+
     color: white;
-    margin: 0px;
     padding-left: 50px;
     display: flex;
     padding-top: 100px;
     text-shadow: 0px 2px 3px #333333;
     position: relative;
-    overflow: hidden;
     font-family: "open sans", sans-serif;
     font-size: 16px;
     line-height: 1;
+}
+
+#herotext {
+    padding-top: 23px;
+    padding-left: 5px;
+}
+
+#lightblue {
+    color: lightblue;
 }
