@@ -39,7 +39,7 @@ ul :nth-child(7) {
 #hero {
     height: 100vh;
     width: 100vw;
-    background-image: url(images/fans.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,10 +62,24 @@ ul :nth-child(7) {
     padding-left: 5px;
 }
 
-.boxshadow {
-    background-color: rgba(0, 0, 0,);
-    background-image: linear-gradient(to bottom,
-    rgba(51,51,51,0.8) 0% rgba(51,51,51,0) 56%
-    rgba(51,51,51,0) 100%); 
+#explorecchs {
+    width: 100vh;
+    height: 400px;
 }
 
+#exploreheader {
+    width: 100vw;
+    height: 81px;
+    text-align: center;
+}
+
+#exploresection {
+    width: 100vw;
+    height: 319px;
+}
+
+.explorebox {
+    height: 315px;
+    width: 25%;
+    float: left;
+}
