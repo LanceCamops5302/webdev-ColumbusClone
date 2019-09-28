@@ -1,7 +1,12 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     margin: 0px;
 }
-
 
 nav {
     background-color: #10243B;
@@ -13,12 +18,13 @@ nav {
 ul {
     list-style-type: none;
     padding: 10px;
-    margin: 0;
+    margin: auto;
     padding-bottom: 15px;
 }
 
 ul li {
     display: inline;
+    padding-top: 5px;
     margin: 5px;
     padding-left: 4px;
 }
@@ -38,7 +44,7 @@ ul :nth-child(7) {
 
 #hero {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,23 +69,207 @@ ul :nth-child(7) {
 }
 
 #explorecchs {
-    width: 100vh;
+    width: 100%;
     height: 400px;
 }
 
 #exploreheader {
-    width: 100vw;
-    height: 81px;
+    width: 100%;
+    height: 70px;
     text-align: center;
+    background-color: #10243B;
+    color: white;
+    padding-top: 30px;
 }
 
 #exploresection {
-    width: 100vw;
+    width: 100%;
     height: 319px;
+    flex-wrap: wrap;
 }
 
 .explorebox {
     height: 315px;
     width: 25%;
     float: left;
+}
+
+#patriot {
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#college {
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#ccnn {
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#media {
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#glance {
+    width: 65%;
+    height: 550px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+#glanceheader {
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    color: #10243B;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
+}
+
+#glancesection {
+    width: 100%;
+    height: 319px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.glancebox {
+    height: 315px;
+    width: 24%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+
+#money {
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 25px;
+}
+
+#graduationcarosel {
+    background-image: url(images/carosel\ graduation.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bookcarosel {
+    background-image: url(images/book.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#teachingcarosel {
+    background-image: url(images/carosel\ teaching.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#h1carosel {
+    color: rgb(195, 14, 14);
+    font-size: 35px;
+    padding-top: 290px;
+    font-family: "open sans", sans-serif;
+}
+
+#h2carosel {
+    padding-top: 10px;
+    color: #727171;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "open sans", sans-serif;
+}
+
+#dualenrollment {
+    background-color: #10243B;
+    margin: auto;
+    width: 60%;
+    height: 150px;
+}
+
+.dualenrollment {
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+#colleges {
+    width: 100%;
+    height: 319px;
+}
+
+#collegesheader {
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #10243B;
+    background-color: white;
+    font-size: 11px;
+    font-family: "open sans", sans-serif;
+}
+
+#collegesections {
+    width: 100%;
+    height: 319px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: center;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.collegebox {
+    height: 150px;
+    width: 17%;
+    float: left;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+
+#um {
+    background-image: url(images/um.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#yale {
+    background-image: url(images/yale.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#wakeforest {
+    background-image: url(images/wakeforest.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#mit {
+    background-image: url(images/mit.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#northcarolina {
+    background-image: url(images/northcarolina.png);
+    background-position: center;
+    background-size: cover;
 }
