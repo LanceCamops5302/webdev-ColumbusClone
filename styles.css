@@ -4,10 +4,6 @@
     padding: 0px;
 }
 
-body {
-    margin: 0px;
-}
-
 nav {
     background-color: #10243B;
     color: white;
@@ -29,12 +25,12 @@ ul li {
     padding-left: 4px;
 }
 
-ul :first-child {
+nav :first-child {
     margin-left: 15px;
     padding-left: 0px;
 }
 
-ul :nth-child(7) {
+nav :nth-child(7) {
     padding-right: 110px;
 }
 
@@ -272,4 +268,107 @@ ul :nth-child(7) {
     background-image: url(images/northcarolina.png);
     background-position: center;
     background-size: cover;
+}
+
+#footer {
+    width: 100%;
+    height: 500px;
+    padding-top: 70px;
+}
+
+#lowerhero {
+    width: 100%;
+    height: 80px;
+    background-image: url(images/fans.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #10243B;
+}
+
+#lowernav {
+    width: 100%;
+    height: 50px;
+    background-color: #10243B;
+    color: lightblue;
+    font-size: 15px;
+    font-family: "open sans", sans-serif;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+#footernav :nth-child(4) {
+    padding-right: 110px;
+}
+
+#footernav :nth-child(5) {
+    padding-right: 50px;
+}
+
+#footericons {
+    float: left;
+    list-style-type: none;
+}
+
+#misson {
+    width: 100%;
+    height: 370px;
+    background-color: #333333;
+}
+
+#adress {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 220px;
+    padding-top: 50px;
+}
+
+#sitemap {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 1460px;
+}
+
+.adress {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 13px;
+}
+
+.space {
+    padding-left: 600px;
+}
+
+.sitemap {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    float: right;
+    padding-right: 385px;
+}
+
+.statement {
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9b9b9b;
+    padding-top: 60px;
+    text-align: left;
+    padding-left: 220px;
+    width: 60%;
+}
+
+#last {
+    list-style-type: none;
+}
+
+.crest {
+    float: left;
 }
