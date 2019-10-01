@@ -9,12 +9,12 @@ nav {
     color: white;
     font-size: 18px;
     font-family: "open sans", sans-serif;
+    height: 60px;
 }
 
 ul {
     list-style-type: none;
     padding: 10px;
-    padding-bottom: 15px;
 }
 
 ul li {
@@ -23,13 +23,15 @@ ul li {
     margin: 5px;
     padding-left: 4px;
 }
-
+img{
+    vertical-align: middle;
+}
 nav :first-child {
     margin-left: 15px;
     padding-left: 0px;
 }
 
-nav :nth-child(7) {
+#seven {
     padding-right: 110px;
 }
 
@@ -237,8 +239,8 @@ nav :nth-child(7) {
 }
 
 .collegebox {
-    height: 170px;
-    width: 17%;
+    height: 160px;
+    width: 17.3%;
     float: left;
     margin-left: 40px;
     padding-left: 10px;
@@ -299,15 +301,12 @@ nav :nth-child(7) {
     font-family: "open sans", sans-serif;
     text-align: center;
     align-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-top: 5px;
 }
 
-#footernav :nth-child(4) {
-    padding-right: 110px;
-}
-
-#footernav :nth-child(5) {
+ #connect {
+    padding-left: 110px;
     padding-right: 50px;
 }
 
@@ -336,7 +335,7 @@ nav :nth-child(7) {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
     font-size: 13px;
-    padding-left: 1460px;
+    padding-left: 2500px;
 }
 
 .adress {
@@ -364,4 +363,6 @@ nav :nth-child(7) {
 .crest {
     float: right;
     padding-right: 300px;
+    padding-bottom: 0px;
+    padding-top: 50px;
 }
