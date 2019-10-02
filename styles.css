@@ -13,7 +13,7 @@ nav {
     font-family: "open sans", sans-serif;
     height: 50px;
     float: left;
-    width: 
+    width: 100%;
 }
 
 ul {
@@ -23,8 +23,8 @@ ul {
 .notinbox {
     align-content: center;
     text-align: center;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 50px;
 }
 
@@ -44,7 +44,7 @@ nav :first-child {
 }
 
 #seven {
-    padding-right: 110px;
+    padding-right: 250px;
 }
 
 #lightblue {
@@ -408,7 +408,7 @@ nav :first-child {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
     font-size: 13px;
-    padding-left: 2500px;
+    padding-left: 5000px;
 }
 
 .adress {
